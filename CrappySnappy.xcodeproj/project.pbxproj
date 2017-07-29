@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FED4E9831F2C828700C5DACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED4E9821F2C828700C5DACC /* AppDelegate.swift */; };
+		FED4E9851F2C828700C5DACC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED4E9841F2C828700C5DACC /* ViewController.swift */; };
+		FED4E9881F2C828700C5DACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED4E9861F2C828700C5DACC /* Main.storyboard */; };
+		FED4E98B1F2C828700C5DACC /* CrappySnappy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FED4E9891F2C828700C5DACC /* CrappySnappy.xcdatamodeld */; };
+		FED4E98D1F2C828700C5DACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED4E98C1F2C828700C5DACC /* Assets.xcassets */; };
+		FED4E9901F2C828700C5DACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED4E98E1F2C828700C5DACC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FED4E97F1F2C828700C5DACC /* CrappySnappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrappySnappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED4E9821F2C828700C5DACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FED4E9841F2C828700C5DACC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FED4E9871F2C828700C5DACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FED4E98A1F2C828700C5DACC /* CrappySnappy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrappySnappy.xcdatamodel; sourceTree = "<group>"; };
+		FED4E98C1F2C828700C5DACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FED4E98F1F2C828700C5DACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FED4E9911F2C828700C5DACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FED4E97C1F2C828700C5DACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FED4E9761F2C828700C5DACC = {
+			isa = PBXGroup;
+			children = (
+				FED4E9811F2C828700C5DACC /* CrappySnappy */,
+				FED4E9801F2C828700C5DACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FED4E9801F2C828700C5DACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FED4E97F1F2C828700C5DACC /* CrappySnappy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FED4E9811F2C828700C5DACC /* CrappySnappy */ = {
+			isa = PBXGroup;
+			children = (
+				FED4E9821F2C828700C5DACC /* AppDelegate.swift */,
+				FED4E9841F2C828700C5DACC /* ViewController.swift */,
+				FED4E9861F2C828700C5DACC /* Main.storyboard */,
+				FED4E98C1F2C828700C5DACC /* Assets.xcassets */,
+				FED4E98E1F2C828700C5DACC /* LaunchScreen.storyboard */,
+				FED4E9911F2C828700C5DACC /* Info.plist */,
+				FED4E9891F2C828700C5DACC /* CrappySnappy.xcdatamodeld */,
+			);
+			path = CrappySnappy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FED4E97E1F2C828700C5DACC /* CrappySnappy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED4E9941F2C828700C5DACC /* Build configuration list for PBXNativeTarget "CrappySnappy" */;
+			buildPhases = (
+				FED4E97B1F2C828700C5DACC /* Sources */,
+				FED4E97C1F2C828700C5DACC /* Frameworks */,
+				FED4E97D1F2C828700C5DACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrappySnappy;
+			productName = CrappySnappy;
+			productReference = FED4E97F1F2C828700C5DACC /* CrappySnappy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FED4E9771F2C828700C5DACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Trent Stevens";
+				TargetAttributes = {
+					FED4E97E1F2C828700C5DACC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = N7K36EUXB9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FED4E97A1F2C828700C5DACC /* Build configuration list for PBXProject "CrappySnappy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FED4E9761F2C828700C5DACC;
+			productRefGroup = FED4E9801F2C828700C5DACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FED4E97E1F2C828700C5DACC /* CrappySnappy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FED4E97D1F2C828700C5DACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED4E9901F2C828700C5DACC /* LaunchScreen.storyboard in Resources */,
+				FED4E98D1F2C828700C5DACC /* Assets.xcassets in Resources */,
+				FED4E9881F2C828700C5DACC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FED4E97B1F2C828700C5DACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED4E98B1F2C828700C5DACC /* CrappySnappy.xcdatamodeld in Sources */,
+				FED4E9851F2C828700C5DACC /* ViewController.swift in Sources */,
+				FED4E9831F2C828700C5DACC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FED4E9861F2C828700C5DACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED4E9871F2C828700C5DACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FED4E98E1F2C828700C5DACC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED4E98F1F2C828700C5DACC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FED4E9921F2C828700C5DACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FED4E9931F2C828700C5DACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FED4E9951F2C828700C5DACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N7K36EUXB9;
+				INFOPLIST_FILE = CrappySnappy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trentstevens.CrappySnappy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FED4E9961F2C828700C5DACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N7K36EUXB9;
+				INFOPLIST_FILE = CrappySnappy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trentstevens.CrappySnappy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FED4E97A1F2C828700C5DACC /* Build configuration list for PBXProject "CrappySnappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED4E9921F2C828700C5DACC /* Debug */,
+				FED4E9931F2C828700C5DACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED4E9941F2C828700C5DACC /* Build configuration list for PBXNativeTarget "CrappySnappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED4E9951F2C828700C5DACC /* Debug */,
+				FED4E9961F2C828700C5DACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FED4E9891F2C828700C5DACC /* CrappySnappy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FED4E98A1F2C828700C5DACC /* CrappySnappy.xcdatamodel */,
+			);
+			currentVersion = FED4E98A1F2C828700C5DACC /* CrappySnappy.xcdatamodel */;
+			path = CrappySnappy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FED4E9771F2C828700C5DACC /* Project object */;
+}
